@@ -60,7 +60,7 @@ button {
     font-size: 18px;
     font-weight: 900;
     padding: 8px 30px;
-    border-radius: 8px;
+    border-radius: 8px; /* how to give objects rounded corners */
     border: none;
 }
 
