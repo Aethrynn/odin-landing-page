@@ -73,18 +73,42 @@ button {
     object-fit: cover;
 }
 
-.small-images {
-    display: flex;
+.information {
+    padding: 0 300px;
+    margin-bottom: 100px;
 }
 
-.fit-img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
+.information-text {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 70px;
+}
+
+.small-images {
+    display: flex;
+    gap: 42px;
 }
 
 .image-and-text {
     margin: 0 auto;
+    width: 175px;
+}
+
+.fit-img {
+    width: inherit;
+    height: 175px;
+    object-fit: cover;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    margin-bottom: 8px;
+}
+
+.image-subtext {
+    text-align: center;
+    color: gray;
+    font-size: 18px;
 }
 
 .quote {
