@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+.content {
+    width: 1500px;
+}
+
 .header, .footer {
     background-color: #1f2937;
 }
