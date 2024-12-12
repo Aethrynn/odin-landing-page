@@ -3,12 +3,13 @@ body {
     margin: 0;
 }
 
-.content {
-    width: 1500px;
-}
-
 .header, .footer {
     background-color: #1f2937;
+}
+
+.logo-and-links, .hero-and-image {
+    width: 1200px;
+    margin: auto;
 }
 
 .logo-and-links {
@@ -16,7 +17,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 16px 200px;
-    margin: 0 
 }
 
 .logo {
@@ -76,6 +76,11 @@ button {
     object-fit: cover;
 }
 
+.information, .quote, .call-to-action {
+    width: 900px;
+    margin: auto;
+}
+
 .information {
     padding: 0 300px;
     margin-bottom: 100px;
@@ -116,7 +121,7 @@ button {
 
 .quote {
     background-color: #e5e7eb;
-    padding: 200px 300px;
+    padding: 100px;
     display: flex;
     flex-direction: column;
 }
@@ -138,7 +143,7 @@ button {
 
 .call-to-action {
     background-color: #3882f6;
-    margin: 100px 200px;
+    margin: 100px auto;
     padding: 50px 125px;
     display: flex;
     justify-content: space-between;
